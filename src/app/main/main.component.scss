@@ -1,0 +1,41 @@
+@import '../../styles.scss';
+
+.main{
+    display: flex;
+    margin: 3rem 0;
+    &-esq{
+        width: 40%;
+        & h1{
+            color: $color-black;
+            line-height: 140%;
+        }
+        & h4{
+            color: $color-gray;
+            font-weight: 400;
+            margin: 1rem 0 2rem 0;
+        }
+    }
+    &-btn{
+        width: 50%;
+        background-color: red;
+    }
+    &-dir{
+        width: 60%;
+        display: flex;
+        justify-content: end;
+    }
+    &-rank{
+        width: 70%;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+        & .item{
+            font-size: 1.5rem;
+            & p:last-child{
+                font-size: 1rem;
+                font-weight: 500;
+                color: $color-gray;
+            }
+        }
+    }
+}

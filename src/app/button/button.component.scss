@@ -4,10 +4,10 @@
     color: $color-white;
     border-radius: 4px;
     padding: .5rem 2.5rem;
+    width: fit-content;
     text-transform: uppercase;
     background-color: $color-blue;
     font-family: 'Nunito', sans-serif;
-
     &:hover{
         cursor: pointer;
     }
